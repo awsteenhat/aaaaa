@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Personal Website</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<nav class="navbar">
+		<ul>
+			<li><a href="#home">HOME</a></li>
+			<li><a href="#gallery">GALLERY</a></li>
+			<li><a href="#contact">CONTACT US</a></li>
+			<li><a href="#about">ABOUT ME</a></li>
+		</ul>
+	</nav>
+	
+	<section id="home">
+		<div class="main">
+			<span class="txt1"> KNOW ME WELL</span>
+			<span class="txt2">HI I'M AUSTIN!</span>
+		</div>
+
+		<figure>
+		
+			<figcaption>Life is made of moments like these. Enjoy Listeninng! <br> <b>Maroon 5 - Sunday Morning</b></figcaption>
+			
+				<video controls muted >
+					<source src="C:\Users\My PC\Documents\personal website\Sunday Morning.mp4" type="video/mp4"/>
+					<source src="C:\Users\My PC\Documents\personal website\Sunday Morning.mp4" type="video/ogg"/>
+
+           
+        </video>
+
+    </figure>
+	</section>
+	
+	<section id="gallery">
+		<h1 class="headings">GALLERY</h1>
+		<div class="pic">
+			<img src="C:\Users\My PC\Documents\personal website\1.jpg" alt="">
+			<img src="C:\Users\My PC\Documents\personal website\2.jpg" alt="">
+			<img src="C:\Users\My PC\Documents\personal website\3.jpg" alt="">
+			<img src="C:\Users\My PC\Documents\personal website\4.jpg" alt="">
+			<img src="C:\Users\My PC\Documents\personal website\5.jpg" alt="">
+			<img src="C:\Users\My PC\Documents\personal website\6.jpg" alt="">
+		</div>
+	</section>
+	
+	<section id="contact">
+		<div class="num">
+			<h1 class="headings">CONTACT US</h1>
+		</div>
+		
+		<p>MY LOCATION</p>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30914.44231230748!2d120.95096582265367!3d14.409556630663443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d383707b95cb%3A0x329ec92bbd37594b!2sThe%20Puff%20Cavite!5e0!3m2!1sen!2sph!4v1671087018506!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		
+		<ul>
+			<li>
+				<a href="https://www.facebook.com/austin.bolivar2">
+					<ion-icon name="logo-facebook"></ion-icon>
+				</a>
+				<a href="https://www.instagram.com/supremo.blvr/">
+					<ion-icon name="logo-instagram"></ion-icon>	
+				</a>
+			</li>
+		</ul>
+		
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+		
+	</section>
+	<section id="about">
+		<div id="pic">
+			<h1 class="headings">ABOUT ME</h1>
+		</div>
+		
+		<img src="C:\Users\My PC\Documents\personal website\5.jpg" alt="">
+		<p id="js">
+			Hi my name is Austin G. Bolivar, or simply <b>Tin</b>. I am a 20-year old guy from Tondo 
+			Manila, Philippines, who was born on December 2, 2002. Citta Italia Bacoor Cavite 
+			is where I live. I was born and raised by my amazing parents; Mark Anthony Bolivar, my father and Sara Jane
+			Gabriel, my mother. I finished my pre-school with roller coaster experience, as well as my high school journey, at Saint Jerome Emiliani Institue (SJEI).
+			I am currently studying BS IT in Adamson University. One day, I want to achieve my dreams and goals in life also to help and to help my parents for their sacrifices for me.
+		</p>
+		
+		<button type="button" onclick="document.getElementById('js').style.display='none'">Click to Hide</button>
+		<button type="button" onclick="document.getElementById('js').style.display='block'">Click to Unhide</button>
+
+	</section>	
+	
+</body>
+</html>
